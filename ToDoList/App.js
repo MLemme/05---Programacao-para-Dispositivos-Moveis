@@ -87,7 +87,8 @@ export default function App() {
                 <Text style={styles.buttonText}>Excluir</Text>
               </TouchableOpacity>
             </View>
-          </View> {/* renderItem={({ item }) => <Text style={styles.task}>{item}</Text>}*/}
+            {/* renderItem={({ item }) => <Text style={styles.task}>{item}</Text>}*/}
+          </View> 
         )}
         keyExtractor={(item, index) => index.toString()}
       />
